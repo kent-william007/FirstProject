@@ -22,7 +22,7 @@
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
     NSLog(@"hello my World");
-    NSLog(@"hello my World change");
+    NSLog(@"hello my World changeasfaf ");
     return YES;
 }
 
