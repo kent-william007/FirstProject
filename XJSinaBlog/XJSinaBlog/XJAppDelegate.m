@@ -21,7 +21,7 @@
     XJTabBarViewController *tabBarVC = [[XJTabBarViewController alloc]init];
     self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
-
+    NSLog(@"hello my World");
     return YES;
 }
 

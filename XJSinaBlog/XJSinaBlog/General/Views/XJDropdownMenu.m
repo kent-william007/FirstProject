@@ -14,8 +14,6 @@
 //想要调用懒加载，就需要用到get方法:self.containView 如果是用_containView不能调用
 -(UIImageView *)containView
 {
-    NSLog(@"test1");
-    NSLog(@"testMyfile");
     if (!_containView) {
         UIImageView *grayBackImageView = [[UIImageView alloc]init];
         grayBackImageView.image = [UIImage imageNamed:@"popover_background"];
